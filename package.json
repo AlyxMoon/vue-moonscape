@@ -1,0 +1,8 @@
+{
+  "name": "vue-moonscape",
+  "version": "0.1.0",
+  "description": "Moonscape is a Vue UI library that contains components I've found useful to reuse.",
+  "main": "index.js",
+  "author": "AlyxMoon <allisterkmoon@gmail.com>",
+  "license": "MIT"
+}
