@@ -9,8 +9,10 @@ module.exports = {
     '@vue/standard',
     '@vue/typescript/recommended',
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
+    parser: '@typescript-eslint/parser',
   },
   plugins: [
     'vue',
@@ -19,6 +21,18 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+
+    '@typescript-eslint/explicit-function-return-type': 'error',
+    '@typescript-eslint/member-delimiter-style': ['error', {
+      multiline: {
+        delimiter: 'comma',
+        requireLast: true,
+      },
+      singleline: {
+        delimiter: 'comma',
+        requireLast: false,
+      },
+    }],
 
     // ignore eslint rules that also exist in typescript
     'no-unused-vars': 'off',
