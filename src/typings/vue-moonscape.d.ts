@@ -1,5 +1,5 @@
 
-declare module 'vue-moonscape' {
+declare module '@alyx/vue-moonscape' {
   import { App, Component } from 'vue'
 
   export declare type Accordion = Component
