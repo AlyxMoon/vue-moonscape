@@ -1,6 +1,6 @@
 {
   "name": "@alyx/vue-moonscape",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Moonscape is a Vue UI library that contains components I've found useful to reuse.",
   "author": {
